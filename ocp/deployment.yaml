@@ -12,7 +12,7 @@ metadata:
       "fieldPath": "spec.template.spec.containers[?(@.name==\"mattias-lernia-app\")].image"
     }]'
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
       app: mattias-lernia-app
